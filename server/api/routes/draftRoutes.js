@@ -4,9 +4,8 @@ const axios = require('axios');
 
 
 // Poll geth Endpoint and then add to Redis queue
-// there isn
-
-
+// there isnt any real reason why I am doing this in a routes file...
+// I was just prototyping so I wanted to have everything in one file for the time being
 
 
 module.exports = async function (server) {
@@ -73,12 +72,9 @@ module.exports = async function (server) {
         .then(result => console.log(result))
         .catch(err => console.error(err));
 
-
-        //curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"txpool_content","params":[],"id":67}' http://localhost:8545
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     server.post('/api/v0/testpost', function (req, res) {
         const { info } = req.query
-
         try {
             console.log(info)
             res.status(200).send()
