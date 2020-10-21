@@ -1,0 +1,31 @@
+{
+  "name": "ClickHereBlockNativePerson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmarzzz/ClickHereBlocknativePerson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmarzzz/ClickHereBlocknativePerson/issues"
+  },
+  "homepage": "https://github.com/dmarzzz/ClickHereBlocknativePerson#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.1.0",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "redis": "^3.0.2"
+  }
+}
